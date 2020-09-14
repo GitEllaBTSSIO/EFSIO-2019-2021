@@ -1,0 +1,96 @@
+/*
+    CLERC Pierre-Francois le 10/05/2017 
+    Modifier le 18/09/2019
+    style.css
+    CSS pour le TD07 de SI6 BTS SIO
+*/
+
+body
+{
+    background: #f2f5f6;
+    background: -moz-linear-gradient(left,  #f2f5f6 0%, #e3eaed 37%, #c8d7dc 100%);
+    background: -webkit-linear-gradient(left,  #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%);
+    background: linear-gradient(to right,  #f2f5f6 0%,#e3eaed 37%,#c8d7dc 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f5f6', endColorstr='#c8d7dc',GradientType=1 );
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 100px;
+    color: #258dc8;
+    text-decoration: underline;
+}
+
+#conteneur
+{
+    border: 3px solid;
+    border-color: #777;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px 20px 10px 20px;
+    width: 50%;
+    background: #f5f5f5;
+    box-shadow: 8px 8px 20px #a8a8a8;  
+}
+
+#conteneur div
+{
+   padding: 5px 0 5px 0; 
+}
+
+#conteneur label
+{
+    display: inline-block;
+    width: 100px;
+}
+
+.center
+{
+    text-align: center;
+}
+
+table
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    border-collapse:collapse;
+    margin-bottom: 10px;
+}
+
+td, th
+{
+    border: 1px solid #000000;
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.bleu
+{
+    background-color: #0a62d6;
+    width : 75px;
+    height: 35px;
+}
+
+.jaune
+{
+    background-color: #e2fa0e;
+    width : 75px;
+    height: 35px;
+}
+
+.rouge
+{
+    background-color: #a50707;
+    width : 75px;
+    height: 35px;
+}
+
+.violet
+{
+    background-color: #7020f1;
+    width : 75px;
+    height: 35px;
+}
